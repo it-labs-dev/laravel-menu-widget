@@ -2,7 +2,6 @@
 
 namespace ItLabs\Widgets\Menu;
 
-use Arrilot\Widgets\AbstractWidget;
 use Illuminate\Support\Arr;
 
 class Menu extends AbstractMenu

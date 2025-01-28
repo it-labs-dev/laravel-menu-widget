@@ -7,7 +7,7 @@
 
 <ul @class($classes)>
     @foreach($menu as $item)
-        <li>
+        <li @class(['has-submenu' => $item['items'] ?? null])>
             @if($item['url'] ?? null)
                 <a href="{{ $item['url'] }}">{!! $item['title'] !!}</a>
             @else
